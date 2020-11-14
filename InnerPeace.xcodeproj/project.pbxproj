@@ -13,6 +13,8 @@
 		9116A92825603F8700A8CFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9116A92625603F8700A8CFC1 /* Main.storyboard */; };
 		9116A92A25603F8C00A8CFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9116A92925603F8C00A8CFC1 /* Assets.xcassets */; };
 		9116A92D25603F8C00A8CFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9116A92B25603F8C00A8CFC1 /* LaunchScreen.storyboard */; };
+		9183B2E0256046B800745CA8 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 9183B2DE256046B800745CA8 /* quotes.json */; };
+		9183B2E1256046B800745CA8 /* pictures.json in Resources */ = {isa = PBXBuildFile; fileRef = 9183B2DF256046B800745CA8 /* pictures.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9116A92925603F8C00A8CFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9116A92C25603F8C00A8CFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9116A92E25603F8C00A8CFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9183B2DE256046B800745CA8 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = quotes.json; path = "../../../../Downloads/inner-peace/quotes.json"; sourceTree = "<group>"; };
+		9183B2DF256046B800745CA8 /* pictures.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pictures.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				9116A92625603F8700A8CFC1 /* Main.storyboard */,
 				9116A92925603F8C00A8CFC1 /* Assets.xcassets */,
 				9116A92B25603F8C00A8CFC1 /* LaunchScreen.storyboard */,
+				9183B2DF256046B800745CA8 /* pictures.json */,
+				9183B2DE256046B800745CA8 /* quotes.json */,
 				9116A92E25603F8C00A8CFC1 /* Info.plist */,
 			);
 			path = InnerPeace;
@@ -124,9 +130,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9183B2E0256046B800745CA8 /* quotes.json in Resources */,
 				9116A92D25603F8C00A8CFC1 /* LaunchScreen.storyboard in Resources */,
 				9116A92A25603F8C00A8CFC1 /* Assets.xcassets in Resources */,
 				9116A92825603F8700A8CFC1 /* Main.storyboard in Resources */,
+				9183B2E1256046B800745CA8 /* pictures.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
